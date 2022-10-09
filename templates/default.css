@@ -1,0 +1,115 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-family:verdana, arial, helvetica, sans-serif;
+	color:#333;
+	background-color:white;
+	background-image: url('http://(_SITEURL_)/gfx/DefaultTemplate/grass.jpg');
+	background-repeat: repeat-x;
+	}
+h1 {
+	margin-bottom: 0px;
+	padding:0px;
+	font-size:28px;
+	line-height:28px;
+	font-weight:900;
+	color:#ccc;
+	}
+h2 {
+	margin-bottom: 0px;
+	padding:0px;
+	font-size:20px;
+	line-height:28px;
+	font-weight:900;
+	color:#ccc;
+}
+
+p {
+	font:11px/20px verdana, arial, helvetica, sans-serif;
+	margin:0px 0px 16px 0px;
+	padding:0px;
+	padding-left:5px;
+	}
+label {
+	font-size: 12px;
+}
+#content>p {margin:0px;}
+#content>p+p {text-indent:30px;}
+
+a {
+	color:#09c;
+	font-size:11px;
+	text-decoration:none;
+	font-weight:600;
+	font-family:verdana, arial, helvetica, sans-serif;
+	}
+a:link {color:#09c;}
+a:visited {color:#07a;}
+a:hover {background-color:#eee;}
+
+#header>a{
+	font-size:18px;
+	font-weight:normal;
+	line-height: 12px;
+}
+
+#header>a:hover {
+	background-color:transparent;
+}
+
+#header {
+	margin:50px 0px 10px 0px;
+	padding:17px 0px 0px 20px;
+	border-style:solid;
+	border-color:black;
+	border-width:1px 0px; /* top and bottom borders: 1px; left and right borders: 0px */
+	line-height:11px;
+	background-color:#eee;
+	height:14px;
+	}
+
+#content {
+	margin:0px 210px 50px 10px;
+	padding:10px;
+	}
+
+#postinfo {
+	color: #999;
+	padding-top: 2px;
+	padding-bottom:4px;
+	font-size: 11px;
+	border-bottom: 1px dashed #999;
+}
+
+#menu {
+	position:absolute;
+	top:100px;
+	right:20px;
+	width:172px;
+	padding:10px;
+	background-color:#eee;
+	border:1px dashed #999;
+	line-height:17px;
+}
+#menu > p#pagerendered {
+	font-size:9px;
+	padding:0px;
+	margin:0px;
+	padding-top:10px;
+}
+#credits {
+    color: #999; 
+    width: 40%; 
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-top:50px; 
+    text-align:center; 
+    font-size: 10px; 
+    display:block; 
+}
+#credits > a{ 
+	color: #999; 
+	font-weight: normal; 
+	font-size: 10px;
+	text-decoration: underline;
+	}

@@ -1,0 +1,98 @@
+/* By Colin Ramsay */
+
+body {
+	margin:50px;
+	padding:0px;
+	font-family:verdana, arial, helvetica, sans-serif;
+	color:#fff;
+	background-color:black;
+	background-image: url('http://(_SITEURL_)/gfx/DefaultTemplate/grass.jpg');
+	background-repeat: repeat-x;
+	}
+h1 {
+	margin-top:20px;
+	margin-bottom: 0px;
+	padding:0px;
+	font-size:11px;
+	line-height:11px;
+	font-weight:900;
+	color:#ccc;
+	}
+h2 {
+	margin-bottom: 0px;
+	padding:0px;
+	font-size:10px;
+	line-height:28px;
+	font-weight:900;
+	color:#fff;
+}
+
+p {
+	font:10px verdana, arial, helvetica, sans-serif;
+	margin:0px 0px 16px 0px;
+	padding:0px;
+	padding-left:5px;
+	color:#ddd;
+	}
+label {
+	font-size: 12px;
+}
+#content>p {margin:0px;}
+#content>p+p {text-indent:30px;}
+
+a {
+	color:#09c;
+	font-size:11px;
+	text-decoration:none;
+	font-weight:600;
+	font-family:verdana, arial, helvetica, sans-serif;
+	}
+
+#header>a{
+	font-size:26px;
+	color:#09c;
+}
+
+#header {
+	}
+
+#content {
+	width:80%;
+	padding:0px 10px 10px 10px;
+	}
+	
+#postinfo {
+	border-bottom:1px dashed #666;
+	padding-bottom:10px;
+	color: #999;
+	padding-top: 2px;
+	font-size: 9px;
+	margin-left:10px;
+}
+
+#menu {
+	margin-left:10px;
+	margin-top:15px;
+}
+#menu > p#pagerendered {
+	font-size:9px;
+	padding:0px;
+	margin:0px;
+	padding-top:10px;
+}
+
+#credits {
+    color: #fff; 
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-top:50px; 
+    text-align:center; 
+    font-size: 10px; 
+    display:block; 
+}
+#credits > a{ 
+	color: #fff; 
+	font-weight: normal; 
+	font-size: 10px;
+	text-decoration: none;
+	}

@@ -1,0 +1,153 @@
+/* Nilson's half-port of Hazard Area Revisited 1.6 from Weblogger */
+
+
+body {
+  font-family: Verdana, sans-serif;
+  background: url("_SITEURL_/gfx/HazardTemplate/HazardLeft2.png") 149px 0px repeat-y;
+}
+
+div#content{
+	padding-left:150px;
+	border:1px dashed #000;
+	padding-bottom: 25px;
+}
+
+div#menu{
+	font-size: 12px;
+	width:12%;
+	position:absolute;
+	top: 120px;
+	left: 12px;
+}
+
+h1{
+	font-size: 25px;
+}
+
+p{
+	font-size: 12px;
+}
+
+span#postinfo{
+	font-size:11px;
+	padding-left:5px;
+}
+	
+p#pagerendered{
+	font-size:10px;
+	color: #999;
+}
+
+a {
+  color: rgb(78,95,145);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div.block form {
+  color: rgb(78,95,145);
+}
+
+div.block {
+  background: url("_SITEURL_/gfx/HazardTemplate/HazardTop.gif") repeat-x;
+  height: 20px;
+}
+
+#header {
+  background-color: rgb(78,95,145);
+}
+
+#header {
+  color: rgb(220, 220, 220);
+  font-size: 24px;
+  line-height: 29px;
+  padding: 24px 6px 22px 6px;
+}
+#header>a {
+    color: rgb(220, 220, 220);
+  font-size: 24px;
+  line-height: 29px;
+  padding: 24px 6px 22px 6px;
+}
+h2 {
+  height: 22px;
+  color: black;
+  font-size: 10px;
+  font-style: italic;
+  padding: 0px 0px 0px 6px;
+  margin-top: -22px;
+  margin-bottom: 0px;
+}
+
+div.body {
+  margin-left: 180px;
+}
+
+div#navBar {
+  position: absolute;
+  top: 95px;
+  padding-top: 35px;
+  background: url("_SITEURL_/gfx/HazardTemplate/HazardLeft.gif") top left no-repeat;
+  width: 164px;
+  font-size: 10px;
+}
+
+div#navBar ul li.subHead {
+  background-color: rgb(204, 204, 204);
+  margin: 20px 27px 10px 12px;
+  padding: 6px;
+  text-transform: capitalize;
+}
+
+div#navBar ul li.subHead ul.links {
+  background: url("_SITEURL_/gfx/HazardTemplate/HazardLinks.gif");
+}
+
+div#navBar ul li.subHead ul.links {
+  padding: 3px;
+  margin: 6px -3px -3px -3px;
+}
+
+#content>p {
+  background-color: rgb(204, 204, 204);
+  padding: 0px;
+  margin-bottom: 20px;
+  clear: both;
+}
+
+#content>p h3 {
+  padding: 4px;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+#content>p {
+  margin: 0px 3px;
+  padding: 5px 3px;
+  background: url("_SITEURL_/gfx/HazardTemplate/HazardLinks.gif");
+  border-bottom: 3px solid rgb(204, 204, 204);
+}
+
+#content>p hr {
+  display: none;
+}
+
+/* Gecko browsers */
+div#navBar ul li.subHead,
+#content>p {
+  -moz-border-radius: 3px;
+}
+
+#credits {
+    color: #999; 
+    width: 40%; 
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-top:50px; 
+    text-align:center; 
+    font-size: 10px; 
+    display:block; 
+}

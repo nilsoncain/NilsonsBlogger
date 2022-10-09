@@ -1,0 +1,17 @@
+<?php
+/*
+*@author steve gricci
+*@access public
+*@skill beginner
+*@site www.deepcode.net
+*/
+  $rendertimepage= true;
+
+  function utime (){
+    $time = explode( " ", microtime());
+    $usec = (double)$time[0];
+    $sec = (double)$time[1];
+    return $sec + $usec;
+  }
+  $start = utime();
+?>

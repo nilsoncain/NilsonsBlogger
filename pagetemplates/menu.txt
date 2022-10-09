@@ -1,0 +1,28 @@
+<div id="menu">
+<?php
+
+if(!isset($_GET['sid']) && isset($_COOKIE['nilsonsbloggerlogin']))
+  $test_sid = $_COOKIE['nilsonsbloggerlogin'];
+
+else if(isset($_GET['sid']))
+  $test_sid = $_GET['sid'];
+
+if(session_id() == $test_sid)
+  { echo "Logged in as: ".$_SESSION['user_name']."  (<a href=\"./login.php?logoutuser\">log out</a>)<br/>"; }
+  
+if($config_showpostlink)
+  { echo "<a href=\"./post.php\">New Entry (post)</a>\n<br /><br/>\n"; }
+  
+if($startingat + $config_postsperpage <= $postcounter)
+  { echo "<a href=\"./?startingat=",($startingat + $config_postsperpage),"\">&lt;&lt; Previous ",($config_postsperpage)," Posts</a>"; }
+  
+if(($startingat + $config_postsperpage <= $postcounter) && ($startingat - $config_postsperpage >= 0))
+  { echo "\n<br/>\n"; }
+  
+if($startingat - $config_postsperpage >= 0)
+  { echo "<a href=\"./?startingat=",($startingat - $config_postsperpage),"\">Next ",($config_postsperpage)," Posts &gt;&gt;</a>"; } 
+  
+if(isset($rendertimepage))
+  { $end = utime(); $run = $end - $start; echo "<p id=\"pagerendered\">Page rendered in " . substr($run, 0, 5) . " seconds</p>"; }
+?>
+</div>
